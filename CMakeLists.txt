@@ -33,6 +33,8 @@ endif ()
 check_include_file("time.h" HAVE_TIME_H)
 check_symbol_exists("memset" "string.h" HAVE_MEMSET)
 check_symbol_exists("strtol" "stdlib.h" HAVE_STRTOL)
+check_include_file("netinet/in.h" HAVE_NETINET_IN_H)
+set(HAVE_BOOST_PROGRAM_OPTIONS 1 CACHE INTERNAL "Indicates whether program_options Boost module is available")
 
 configure_file(
     "${PROJECT_SOURCE_DIR}/config.h.in"

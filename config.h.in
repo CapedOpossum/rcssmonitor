@@ -8,3 +8,5 @@
 #cmakedefine HAVE_MEMSET 1
 #cmakedefine HAVE_STRTOL 1
 #cmakedefine HAVE_TIME_H 1
+#cmakedefine HAVE_NETINET_IN_H 1
+#cmakedefine HAVE_BOOST_PROGRAM_OPTIONS 1
