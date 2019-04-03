@@ -1,0 +1,10 @@
+#cmakedefine HAVE_LIBZ 1
+#cmakedefine HAVE_DEFLATE 1
+#cmakedefine HAVE_LIBM 1
+#cmakedefine HAVE_MATH_H 1
+#cmakedefine HAVE_SQRT 1
+#cmakedefine HAVE_POW 1
+#cmakedefine HAVE_RINT 1
+#cmakedefine HAVE_MEMSET 1
+#cmakedefine HAVE_STRTOL 1
+#cmakedefine HAVE_TIME_H 1
